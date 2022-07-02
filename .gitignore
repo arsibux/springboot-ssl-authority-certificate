@@ -31,7 +31,8 @@ build/
 
 ### VS Code ###
 .vscode/
-src\main\resources\cert1.pem
-src\main\resources\privatekey.pem
-src\main\resources\publickey.pem
-src\main\resources\springboot.p12
+.history/*
+src/main/resources/cert1.pem
+src/main/resources/privatekey.pem
+src/main/resources/publickey.pem
+src/main/resources/springboot.p12

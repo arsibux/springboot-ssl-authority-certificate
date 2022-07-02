@@ -1,7 +1,7 @@
 
 server:
   ssl:
-    enabled: true
+    enabled: true # enables https
     key-store-type: pkcs12
     key-store: classpath:springboot.p12
     key-store-password: springboot
