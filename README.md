@@ -1,5 +1,5 @@
 # springboot-ssl-authority-certificate
-Enable SSL Secure Sockets Layer in springboot application using Lets Encrypt Authority Certificate
+Enable `SSL Secure Sockets Layer`` in Springboot Application using Authority Certificate provided by Lets Encrypt
 
 * Two files from Authority Certificate Provider like [Lets Encrypt](https://letsencrypt.org/)
 * * `publickey.pem` cert1.pem
