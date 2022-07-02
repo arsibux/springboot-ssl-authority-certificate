@@ -2,8 +2,8 @@
 Enable SSL Secure Sockets Layer in springboot application using Lets Encrypt Authority Certificate
 
 * Two files from Authority Certificate Provider like [Lets Encrypt](https://letsencrypt.org/)
-* * `publickey.pem`
-* * `privatekey.pem`
+* * `publickey.pem` cert1.pem
+* * `privatekey.pem` privkey1.pem
 
 * RUN `openssl pkcs12 -export -in publickey.pem -inkey privatekey.pem -name springboot -out springboot.p12`
 *  Provide `Enter Export Password` and `Verifying - Enter Export Password` , this password will b used as the password
