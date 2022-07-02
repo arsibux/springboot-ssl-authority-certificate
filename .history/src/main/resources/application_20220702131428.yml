@@ -1,0 +1,10 @@
+
+server:
+  ssl:
+    enabled: true
+    key-store-type: pkcs12
+    key-store: classpath:rail.p12
+    key-store-password: railway
+    key-alias: rail
+  #    key-password: railway-8084
+  port: 8080
