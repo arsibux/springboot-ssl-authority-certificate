@@ -11,7 +11,7 @@ Enable SSL Secure Sockets Layer in springboot application using Lets Encrypt Aut
 * As the result above command a file `springboot.p12` will be created.
 
 ### application.yml file
-
+```
 server:
   ssl:
     enabled: true
@@ -19,5 +19,5 @@ server:
     key-store: classpath:springboot.p12
     key-store-password: springboot [Optional]
     key-alias: springboot
-
   port: 8080
+```
