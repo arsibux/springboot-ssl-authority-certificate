@@ -1,4 +1,4 @@
-# springboot-ssl-authority-certificate
+# Enable SSL using Authority Certificate
 Enable `SSL Secure Sockets Layer` in   [Springboot Application](https://start.spring.io/) using Authority Certificate provided by  [Lets Encrypt](https://letsencrypt.org/)
 
 * Two files from Authority Certificate Provider like [Lets Encrypt](https://letsencrypt.org/)
